@@ -1,0 +1,25 @@
+{
+  "name": "vegetable-identifier",
+  "version": "1.0.1",
+  "description": "Identifies if an item is a vegetable or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartrb/vegetable-identifier.git"
+  },
+  "keywords": [
+    "vegetable"
+  ],
+  "author": "Stuart Burnside",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stuartrb/vegetable-identifier/issues"
+  },
+  "homepage": "https://github.com/stuartrb/vegetable-identifier#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
