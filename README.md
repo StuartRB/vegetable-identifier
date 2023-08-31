@@ -14,6 +14,5 @@ console.log(isVegetable("turnip"));
  - Turnip
  - Radish
  - Cabbage
- - Cucumber
-
+ - Kale
 

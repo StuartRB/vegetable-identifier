@@ -12,9 +12,9 @@ describe('is a vegetable', () => {
     		const isVegetable = require('vegetable-identifier');
     	  	expect(isVegetable("Cabbage")).toBe(true);
     });
-    test('cucumber is a vegetable', () => {
+    test('kale is a vegetable', () => {
             const isVegetable = require('vegetable-identifier');
-            expect(isVegetable("Cucumber")).toBe(true);
+            expect(isVegetable("Kale")).toBe(true);
     });
 });
 
