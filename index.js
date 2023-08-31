@@ -9,6 +9,9 @@ function isVegetable(value) {
     if (value.toUpperCase() === "CABBAGE"){
         return true;
     }
+    if (value.toUpperCase() === "CUCUMBER"){
+        return true;
+    }
   }
   return false;
 }
