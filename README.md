@@ -15,4 +15,5 @@ console.log(isVegetable("turnip"));
  - Radish
  - Cabbage
  - Kale
+ - Potato
 

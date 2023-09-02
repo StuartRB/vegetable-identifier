@@ -1,7 +1,7 @@
 
 describe('is a vegetable', () => {
 
-	const vegetables = ["turnip", "Radish", "Cabbage", "kale"];
+	const vegetables = ["Cabbage","Kale", "Potato","Radish", "Turnip"];
 	const isVegetable = require('vegetable-identifier');
 
 	vegetables.forEach(item => {
@@ -15,8 +15,11 @@ describe('is not a vegetable', () => {
 	const isVegetable = require('vegetable-identifier');
 
 	test('a banana is not a vegetable', () => {
-	  	expect(isVegetable(null)).toBe(false);
+	  	expect(isVegetable("banana")).toBe(false);
 	});
+    test('a tomato is not a vegetable', () => {
+        expect(isVegetable("tomato")).toBe(false);
+    });
 	test('null is not a vegetable', () => {
 	  	expect(isVegetable(null)).toBe(false);
 	});
@@ -27,6 +30,6 @@ describe('is not a vegetable', () => {
 	  	expect(isVegetable("")).toBe(false);
 	});
 	test('1 is not a vegetable', () => {
-	  	expect(isVegetable(-1)).toBe(false);
+	  	expect(isVegetable(1)).toBe(false);
 	});
 });
