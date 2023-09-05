@@ -16,4 +16,5 @@ console.log(isVegetable("turnip"));
  - Cabbage
  - Kale
  - Potato
+ - Lettuce
 

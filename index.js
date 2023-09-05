@@ -16,6 +16,9 @@ function isVegetable(value) {
     if (value.toUpperCase() === "POTATO") {
         return true;
     }
+    if (value.toUpperCase() === "LETTUCE") {
+        return true;
+    }
   }
   return false;
 }

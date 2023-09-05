@@ -1,7 +1,7 @@
 
 describe('is a vegetable', () => {
 
-	const vegetables = ["Cabbage","Kale", "Potato","Radish", "Turnip"];
+	const vegetables = ["Cabbage","Kale", "Lettuce", "Potato","Radish", "Turnip"];
 	const isVegetable = require('vegetable-identifier');
 
 	vegetables.forEach(item => {
