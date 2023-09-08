@@ -1,14 +1,15 @@
+const fs = require('fs');
 
 describe('is a vegetable', () => {
 
-	const vegetables = ["Cabbage","Kale", "Lettuce", "Potato","Radish", "Turnip"];
-	const isVegetable = require('vegetable-identifier');
+    const isVegetable = require('vegetable-identifier');
+    const vegetables = fs.readFileSync('test/vegetables.txt', 'utf-8');
 
-	vegetables.forEach(item => {
-		test(item + ' is a vegetable', () => {
-			  expect(isVegetable(item)).toBe(true);
-		});
-	})
+    vegetables.split(/\r?\n/).forEach(vegetable =>  {
+          test(vegetable + ' is a vegetable', () => {
+                expect(isVegetable(vegetable)).toBe(true);
+          });
+    });
 });
 
 describe('is not a vegetable', () => {

@@ -19,6 +19,12 @@ function isVegetable(value) {
     if (value.toUpperCase() === "LETTUCE") {
         return true;
     }
+    if (value.toUpperCase() === "ASPARAGUS") {
+            return true;
+    }
+    if (value.toUpperCase() === "BROCCOLI") {
+            return true;
+    }
   }
   return false;
 }
