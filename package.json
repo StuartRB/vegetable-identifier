@@ -1,6 +1,6 @@
 {
   "name": "vegetable-identifier",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Identifies if an item is a vegetable or not",
   "main": "index.js",
   "scripts": {
