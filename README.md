@@ -11,12 +11,5 @@ console.log(isVegetable("turnip"));
 
 #### Current supported vegetables
 
- - Turnip
- - Radish
- - Cabbage
- - Kale
- - Potato
- - Lettuce
- - Asparagus
- - Broccoli
+ - some vegetables
 

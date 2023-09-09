@@ -3,7 +3,7 @@ const fs = require('fs');
 describe('is a vegetable', () => {
 
     const isVegetable = require('vegetable-identifier');
-    const vegetables = fs.readFileSync('test/vegetables.txt', 'utf-8');
+    const vegetables = fs.readFileSync('vegetables.txt', 'utf-8');
 
     vegetables.split(/\r?\n/).forEach(vegetable =>  {
           test(vegetable + ' is a vegetable', () => {
