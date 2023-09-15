@@ -12,6 +12,7 @@ Celery
 Chard
 Fennel
 Kale
+Leek
 Lettuce
 Okra
 Onion
